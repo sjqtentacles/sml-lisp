@@ -1,0 +1,8 @@
+(* MLton basis file for the sml-lisp library.
+ * Brings `structure Lisp` into scope. *)
+local
+  $(SML_LIB)/basis/basis.mlb
+in
+  lisp.sig
+  lisp.sml
+end
